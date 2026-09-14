@@ -1,6 +1,6 @@
 ---
 agent: 'agent'
-model: GPT-5.5
+model: GPT-5.6 Terra
 description: 'Configure MongoDB and seed octofit_db for the Octofit multi-tier application'
 ---
 
