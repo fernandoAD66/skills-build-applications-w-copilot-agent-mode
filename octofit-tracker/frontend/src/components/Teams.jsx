@@ -10,7 +10,7 @@ function Teams() {
     const loadTeams = async () => {
       try {
         setLoading(true)
-        const data = await fetchFromApi('/teams')
+        const data = await fetchFromApi('/teams/')
         // Handle both array and paginated responses
         const teamsList = Array.isArray(data) ? data : data.teams || []
         setTeams(teamsList)

@@ -10,7 +10,7 @@ function Leaderboard() {
     const loadLeaderboard = async () => {
       try {
         setLoading(true)
-        const data = await fetchFromApi('/leaderboard')
+        const data = await fetchFromApi('/leaderboard/')
         // Handle both array and paginated responses
         const leaderboardData = Array.isArray(data) ? data : data.leaderboard || []
         setLeaderboard(leaderboardData)

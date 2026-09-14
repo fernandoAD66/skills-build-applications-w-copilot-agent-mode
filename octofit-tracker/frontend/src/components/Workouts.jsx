@@ -10,7 +10,7 @@ function Workouts() {
     const loadWorkouts = async () => {
       try {
         setLoading(true)
-        const data = await fetchFromApi('/workouts')
+        const data = await fetchFromApi('/workouts/')
         // Handle both array and paginated responses
         const workoutsList = Array.isArray(data) ? data : data.workouts || []
         setWorkouts(workoutsList)

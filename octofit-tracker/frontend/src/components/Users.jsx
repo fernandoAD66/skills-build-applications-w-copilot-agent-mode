@@ -10,7 +10,7 @@ function Users() {
     const loadUsers = async () => {
       try {
         setLoading(true)
-        const data = await fetchFromApi('/users')
+        const data = await fetchFromApi('/users/')
         // Handle both array and paginated responses
         const usersList = Array.isArray(data) ? data : data.users || []
         setUsers(usersList)
