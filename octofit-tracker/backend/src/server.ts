@@ -1,2 +1,1 @@
-CODESPACE_NAME
--8000.app.github.dev
+CODESPACE_NAME -8000.app.github.dev
