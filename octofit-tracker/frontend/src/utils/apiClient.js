@@ -28,7 +28,7 @@ const API_BASE_URL = getApiBaseUrl()
  */
 export const fetchFromApi = async (endpoint) => {
   try {
-    const response = await fetch(`${API_BASE_URL}/api${endpoint}`)
+    const response = await fetch(`${API_BASE_URL}${endpoint}`)
     
     if (!response.ok) {
       throw new Error(`API error: ${response.status}`)
