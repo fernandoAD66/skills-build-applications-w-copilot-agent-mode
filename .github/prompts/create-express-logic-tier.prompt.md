@@ -1,6 +1,6 @@
 ---
 agent: 'agent'
-model: GPT-5.5
+model: GPT-5.6 Terra
 description: 'Create the Node.js logic tier for the Octofit multi-tier application'
 ---
 
